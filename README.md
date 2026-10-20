@@ -34,7 +34,7 @@ applyTheme(findTheme('dracula'));           // sets --c4-* variables on <html>
 const { ui, text } = roles(findTheme('nord')); // or read the colors yourself
 ```
 
-Install from Git: `npm install github:robertoritter/cube4themes#v1.0.0`.
+Install from Git: `npm install github:robertoritter/Cube4Themes#v1.0.1`.
 
 ## Roles
 
@@ -74,7 +74,7 @@ Check the license of a scheme in its original project before redistributing it.
 
 ## License
 
-No license has been chosen yet for the Cube4Themes code: all rights reserved until one is published. The color schemes keep their original authors' licenses.
+The Cube4Themes code is released under the [MIT License](LICENSE). The color schemes keep their original authors' licenses.
 
 ---
 

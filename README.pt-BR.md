@@ -34,7 +34,7 @@ applyTheme(findTheme('dracula'));             // define as variáveis --c4-* no 
 const { ui, text } = roles(findTheme('nord')); // ou leia as cores diretamente
 ```
 
-Instalar pelo Git: `npm install github:robertoritter/cube4themes#v1.0.0`.
+Instalar pelo Git: `npm install github:robertoritter/Cube4Themes#v1.0.1`.
 
 ## Papéis
 
@@ -59,7 +59,7 @@ Cada esquema de cores pertence ao seu autor original. As paletas vieram destas c
 
 ## Licença
 
-O código do Cube4Themes ainda não tem licença escolhida: todos os direitos reservados até uma ser publicada. Os esquemas de cores mantêm as licenças dos autores originais.
+O código do Cube4Themes é distribuído sob a [licença MIT](LICENSE). Os esquemas de cores mantêm as licenças dos autores originais.
 
 ---
 
