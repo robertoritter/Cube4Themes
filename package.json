@@ -1,0 +1,18 @@
+{
+  "name": "cube4themes",
+  "version": "1.0.0",
+  "description": "53 terminal color themes turned into UI and reading colors (headings, bullets, bold, code, links) with guaranteed contrast. JSON, CSS and a tiny JS module.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" },
+    "./themes.json": "./dist/themes.json",
+    "./themes.css": "./dist/themes.css",
+    "./palettes.json": "./palettes.json"
+  },
+  "files": ["src", "dist", "palettes.json", "README.md", "README.pt-BR.md"],
+  "scripts": { "build": "node scripts/build.mjs" },
+  "author": "Roberto Ritter (https://cube4code.com)",
+  "private": true
+}
